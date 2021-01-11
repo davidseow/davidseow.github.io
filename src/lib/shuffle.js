@@ -1,3 +1,4 @@
+// credit: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array#answer-2450976
 function shuffle(array) {
   var currentIndex = array.length,
     temporaryValue,
