@@ -1,7 +1,15 @@
 module.exports = {
   siteMetadata: {
+    author: "David Seow",
     title: "David Seow - Software testing",
     description: "Software testing, London",
+    siteUrl: "https://davidseow.github.io/",
+    social: [
+      {
+        name: "github",
+        url: "https://github.com/davidseow",
+      },
+    ],
   },
   plugins: [
     {
@@ -27,6 +35,15 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
+    },
+    {
+      resolve: `gatsby-theme-blog`,
+      options: {
+        /*
+        - basePath defaults to `/`
+        */
+        basePath: `/blog`,
+      },
     },
   ],
 };

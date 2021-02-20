@@ -1,0 +1,13 @@
+nav a {
+  border: 1px solid #c3c3c3;
+  border-width: 0 1px 0 0;
+  padding: 0 1rem;
+}
+
+nav a:last-child {
+  border: 0;
+}
+
+nav a.active {
+  text-decoration: none;
+}

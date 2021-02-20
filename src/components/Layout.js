@@ -1,15 +1,25 @@
 import React from "react";
 import { Link } from "gatsby";
 
-const Layout = ({ props, children }) => (
-  <>
+import "./Layout.css";
+
+const Layout = ({ children }) => (
+  <div>
     <header>
       <nav>
-        <Link to="/">Home</Link>
+        <Link activeClassName="active" to="/">
+          Home
+        </Link>
+        <Link activeClassName="active" to="/articles">
+          Articles
+        </Link>
       </nav>
     </header>
     <main>{children}</main>
-  </>
+    <footer>
+      <p>&copy; David Seow 2021</p>
+    </footer>
+  </div>
 );
 
 export default Layout;
