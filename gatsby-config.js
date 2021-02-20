@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "David Seow - Software testing",
+    description: "Software testing, London",
   },
   plugins: [
     {
