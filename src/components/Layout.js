@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-const Layout = ({ children }) => (
+const Layout = ({ props, children }) => (
   <>
     <header>
       <nav>
