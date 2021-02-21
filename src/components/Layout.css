@@ -1,11 +1,17 @@
-nav a {
-  border: 1px solid #c3c3c3;
-  border-width: 0 1px 0 0;
-  padding: 0 1rem;
+nav {
+  font-family: "courier", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  position: fixed;
 }
 
-nav a:last-child {
-  border: 0;
+nav a,
+nav a:visited {
+  color: #f0f8ff;
+  display: block;
+  margin: 10px 20px 0;
+  text-decoration: none;
+  text-shadow: 2px 2px #8e7272;
 }
 
 nav a.active {
