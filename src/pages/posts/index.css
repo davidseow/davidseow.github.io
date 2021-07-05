@@ -1,0 +1,34 @@
+.breadcrumb {
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumb ul {
+  padding: 0;
+  margin: 10px 0 0 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.breadcrumb li {
+  margin: 0 10px 0 0;
+}
+
+.breadcrumb li a:after {
+  content: " >";
+}
+
+.breadcrumb li:last-child a:after {
+  content: "";
+}
+
+.breadcrumb a,
+.breadcrumb a:visited {
+  color: #525252;
+  text-decoration: none;
+}
+
+.posts a,
+.posts a:visited {
+  color: #525252;
+}

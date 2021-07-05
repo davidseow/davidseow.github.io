@@ -7,9 +7,10 @@ import SEO from "../../components/SEO";
 
 const PostPage = ({ data }) => {
   const post = data.mdx;
+
   return (
     <Layout>
-      <SEO title="Home" description="Site description" />
+      <SEO title={post.frontmatter.title} />
       <article>
         <h1>{post.frontmatter.title}</h1>
         <MDXRenderer>{post.body}</MDXRenderer>
