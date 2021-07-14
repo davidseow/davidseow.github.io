@@ -1,12 +1,12 @@
 import * as React from "react";
 
 import Layout from "../components/Layout";
-import SEO from "../components/SEO";
+import Seo from "../components/Seo";
 
 const NotFoundPage = () => {
   return (
     <Layout>
-      <SEO title="404" description="Page not found" />
+      <Seo title="404" description="Page not found" />
       <div>Page not found</div>
     </Layout>
   );

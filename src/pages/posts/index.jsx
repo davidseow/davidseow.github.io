@@ -2,7 +2,7 @@ import * as React from "react";
 import { graphql, Link } from "gatsby";
 
 import Layout from "../../components/Layout";
-import SEO from "../../components/SEO";
+import Seo from "../../components/Seo";
 
 import "./index.css";
 
@@ -11,7 +11,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout {...posts}>
-      <SEO title="Post" description="Post listing" />
+      <Seo title="Post" description="Post listing" />
       <menu className="breadcrumb">
         <ul>
           <li>
