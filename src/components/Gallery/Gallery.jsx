@@ -1,6 +1,6 @@
 import React from "react";
-import ImageMasonry from "react-image-masonry";
-import { shuffle } from "../../lib/shuffle";
+import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
+import shuffle from "../../lib/shuffle";
 
 const imagesPath = [
   "/photos/DSC01435.jpg",
@@ -44,12 +44,20 @@ const imagesPath = [
   "/photos/IMG_8186.jpg",
 ];
 
-const Gallery = () => (
-  <ImageMasonry
-    imageUrls={shuffle(imagesPath)}
-    numCols={3}
-    containerWidth={"100%"}
-  />
-);
+const images=shuffle(imagesPath);
+const Gallery = () => {
+    return <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}} className="galleryContainer">
+      <Masonry className="gallery">
+        {images.map((image, i) => (
+            <img
+                key={i}
+                src={image}
+                style={{width: "100%", display: "block"}}
+                alt=""
+            />
+        ))}
+      </Masonry>
+  </ResponsiveMasonry>
+}
 
 export default Gallery;
