@@ -44,7 +44,7 @@ const Layout = ({ children }) => (
     </div>
 
     <footer>
-      <p>&copy; David Seow 2021</p>
+      <p>&copy; David Seow 2022</p>
     </footer>
   </>
 );
