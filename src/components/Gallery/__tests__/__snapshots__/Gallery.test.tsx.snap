@@ -15,67 +15,14 @@ exports[`Gallery should render 1`] = `
         <img
           alt=""
           src="/photos/DSC01435.jpg"
-          style="width: 100%; display: block;"
         />
         <img
           alt=""
           src="/photos/DSCF1264.jpg"
-          style="width: 100%; display: block;"
         />
         <img
           alt=""
           src="/photos/DSCF5285.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/DSCF7549.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/DSCF7961.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_0399.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_0556.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_2327.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_2866.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_3292.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_3557.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_5387.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_6951.jpg"
-          style="width: 100%; display: block;"
         />
       </div>
       <div
@@ -84,67 +31,10 @@ exports[`Gallery should render 1`] = `
         <img
           alt=""
           src="/photos/DSCF0469.jpg"
-          style="width: 100%; display: block;"
         />
         <img
           alt=""
           src="/photos/DSCF3189.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/DSCF5552.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/DSCF7599.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_0065.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_0404.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_0634.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_2352.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_2874.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_3384.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_3627.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_5876.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_7404.jpg"
-          style="width: 100%; display: block;"
         />
       </div>
       <div
@@ -153,67 +43,10 @@ exports[`Gallery should render 1`] = `
         <img
           alt=""
           src="/photos/DSCF1140.jpg"
-          style="width: 100%; display: block;"
         />
         <img
           alt=""
           src="/photos/DSCF3526.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/DSCF5848.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/DSCF7608.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_0159.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_0512.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_1096.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_2538.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_3063.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_3488.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_4089.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_6127.jpg"
-          style="width: 100%; display: block;"
-        />
-        <img
-          alt=""
-          src="/photos/IMG_8186.jpg"
-          style="width: 100%; display: block;"
         />
       </div>
     </div>

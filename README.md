@@ -5,7 +5,7 @@
 - [x] setup masonry
 - [x] setup and add unit tests
 - [x] setup prettify
-- [ ] tweak masonry style and add shuffle
+- [x] tweak masonry style and add shuffle
 - [ ] setup markdown dynamic pages
 - [ ] setup and verify google analytics
 - [ ] write blogs

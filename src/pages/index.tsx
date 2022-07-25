@@ -1,6 +1,7 @@
 import * as React from "react";
 import Layout from "../components/Layout/Layout";
 import Gallery from "../components/Gallery/Gallery";
+import shuffle from "../lib/shuffle";
 
 const imagesPath = [
   "/photos/DSC01435.jpg",
@@ -44,10 +45,12 @@ const imagesPath = [
   "/photos/IMG_8186.jpg",
 ];
 
+const shuffled = shuffle(imagesPath);
+
 const IndexPage = () => {
   return (
     <Layout>
-      <Gallery />
+      <Gallery images={shuffled} />
     </Layout>
   );
 };

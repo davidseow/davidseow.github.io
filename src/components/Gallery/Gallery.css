@@ -1,0 +1,6 @@
+img {
+  box-sizing: border-box;
+  display: block;
+  padding: 3px;
+  width: 100%;
+}
