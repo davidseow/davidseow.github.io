@@ -2,14 +2,14 @@ import * as React from "react";
 import { graphql, Link } from "gatsby";
 
 import Layout from "../../components/Layout/Layout";
-// import Seo from "../../components/Seo";
+import Seo from "../../components/Seo/Seo";
 
 const PostsPage = ({ data }) => {
   const posts = data.allMdx.nodes;
 
   return (
     <Layout {...posts}>
-      {/* <Seo title="Post" description="Post listing" /> */}
+      <Seo title="Posts" description="Post listing" />
       {posts.map((post) => {
         return (
           <>

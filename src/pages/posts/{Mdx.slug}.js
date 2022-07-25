@@ -3,14 +3,14 @@ import { graphql } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 
 import Layout from "../../components/Layout/Layout";
-// import Seo from "../../components/Seo";
+import Seo from "../../components/Seo/Seo";
 
 const PostPage = ({ data }) => {
   const post = data.mdx;
 
   return (
     <Layout>
-      {/* <Seo title={post.frontmatter.title} /> */}
+      <Seo title={post.frontmatter.title} />
       <article>
         <h1>{post.frontmatter.title}</h1>
         <MDXRenderer>{post.body}</MDXRenderer>

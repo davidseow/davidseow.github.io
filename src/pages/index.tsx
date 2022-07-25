@@ -1,6 +1,8 @@
 import * as React from "react";
 import Layout from "../components/Layout/Layout";
 import Gallery from "../components/Gallery/Gallery";
+import Seo from "../components/Seo/Seo";
+
 import shuffle from "../lib/shuffle";
 
 const imagesPath = [
@@ -50,6 +52,7 @@ const shuffled = shuffle(imagesPath);
 const IndexPage = () => {
   return (
     <Layout>
+      <Seo title="Home" description="Home" />
       <Gallery images={shuffled} />
     </Layout>
   );
