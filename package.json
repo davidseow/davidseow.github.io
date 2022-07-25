@@ -1,13 +1,16 @@
 {
-  "name": "david-seow",
-  "version": "1.0.0",
+  "name": "david-seow-software-testing",
+  "version": "3.0.0",
   "private": true,
-  "description": "david-seow",
-  "author": "David Seow",
+  "description": "David Seow - Software testing",
+  "author": "David Seows",
   "keywords": [
-    "gatsby"
+    "david seow",
+    "quality engineer",
+    "software testing"
   ],
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -49,6 +52,7 @@
     "@types/react-helmet": "^6.1.5",
     "babel-jest": "^28.1.3",
     "babel-preset-gatsby": "^2.19.0",
+    "gh-pages": "^4.0.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^28.1.3",
     "jest-environment-jsdom": "^28.1.3",
