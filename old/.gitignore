@@ -1,6 +1,6 @@
+old/
 node_modules/
 .cache/
 public
-src/gatsby-types.d.ts
 .DS_Store
-old/
+
