@@ -2,7 +2,7 @@ name: Quality
 
 on:
   pull_request:
-    branches: [ main]
+    branches: [main]
 
 jobs:
   unit_test:
@@ -27,4 +27,3 @@ jobs:
         run: npm ci
       - name: Unit test
         run: npm run test
-

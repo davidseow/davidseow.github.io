@@ -1,6 +1,6 @@
-import * as React from "react"
-import Layout from '../components/Layout/Layout'
-import Gallery from '../components/Gallery/Gallery'
+import * as React from "react";
+import Layout from "../components/Layout/Layout";
+import Gallery from "../components/Gallery/Gallery";
 
 const imagesPath = [
   "/photos/DSC01435.jpg",
@@ -47,9 +47,9 @@ const imagesPath = [
 const IndexPage = () => {
   return (
     <Layout>
-       <Gallery />
+      <Gallery />
     </Layout>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
