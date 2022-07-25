@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "gatsby";
 
 import "./Layout.css";
-// import InstagramIcon from "../../static/icons/instagram.svg";
-// import GithubIcon from "../../static/icons/github.svg";
+import InstagramIcon from "../Icons/Instagram";
+import GithubIcon from "../Icons/Github";
 
 const Layout = ({ children }) => (
   <>
@@ -25,7 +25,7 @@ const Layout = ({ children }) => (
                 rel="noreferrer"
                 aria-label="Instagram - David Seow"
               >
-                {/* <InstagramIcon /> */}
+                <InstagramIcon />
               </a>
               <a
                 className="github"
@@ -34,7 +34,7 @@ const Layout = ({ children }) => (
                 rel="noreferrer"
                 aria-label="Github - David Seow"
               >
-                {/* <GithubIcon /> */}
+                <GithubIcon />
               </a>
             </div>
           </div>
