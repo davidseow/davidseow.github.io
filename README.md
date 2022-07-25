@@ -3,7 +3,8 @@
 ## TODO
 
 - [x] setup masonry
-- [ ] setup and unit tests
+- [ ] setup and add unit tests
+- [ ] setup prettify
 - [ ] tweak masonry style and add shuffle
 - [ ] setup markdown dynamic pages
 - [ ] setup and verify google analytics
