@@ -2,7 +2,7 @@ name: Quality
 
 on:
   pull_request:
-    branches: [ main]
+    branches: [main]
 
 jobs:
   unit_test:
@@ -13,18 +13,17 @@ jobs:
         uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 16.14.0
       - name: Cache node modules
         uses: actions/cache@v2
         env:
           cache-name: cache-node-modules
         with:
           path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}-2
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}-3
           restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-2
+            ${{ runner.os }}-build-${{ env.cache-name }}-3
       - name: Install dependencies
         run: npm ci
       - name: Unit test
         run: npm run test
-

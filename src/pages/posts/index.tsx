@@ -1,27 +1,15 @@
 import * as React from "react";
 import { graphql, Link } from "gatsby";
 
-import Layout from "../../components/Layout";
-import Seo from "../../components/Seo";
+import Layout from "../../components/Layout/Layout";
+import Seo from "../../components/Seo/Seo";
 
-import "./index.css";
-
-const IndexPage = ({ data }) => {
+const PostsPage = ({ data }) => {
   const posts = data.allMdx.nodes;
 
   return (
     <Layout {...posts}>
-      <Seo title="Post" description="Post listing" />
-      <menu className="breadcrumb">
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/posts">Posts</Link>
-          </li>
-        </ul>
-      </menu>
+      <Seo title="Posts" description="Post listing" />
       {posts.map((post) => {
         return (
           <>
@@ -50,4 +38,4 @@ export const pageQuery = graphql`
   }
 `;
 
-export default IndexPage;
+export default PostsPage;

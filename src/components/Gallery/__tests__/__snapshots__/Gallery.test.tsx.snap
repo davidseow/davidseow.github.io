@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery should render 1`] = `
+<DocumentFragment>
+  <div
+    class="galleryContainer"
+  >
+    <div
+      class="gallery"
+      style="display: flex; flex-direction: row; justify-content: center; align-content: stretch; box-sizing: border-box; width: 100%; gap: 0;"
+    >
+      <div
+        style="display: flex; flex-direction: column; justify-content: flex-start; align-content: stretch; flex: 1; width: 0px; gap: 0;"
+      >
+        <img
+          alt=""
+          src="/photos/DSC01435.jpg"
+        />
+        <img
+          alt=""
+          src="/photos/DSCF1264.jpg"
+        />
+        <img
+          alt=""
+          src="/photos/DSCF5285.jpg"
+        />
+      </div>
+      <div
+        style="display: flex; flex-direction: column; justify-content: flex-start; align-content: stretch; flex: 1; width: 0px; gap: 0;"
+      >
+        <img
+          alt=""
+          src="/photos/DSCF0469.jpg"
+        />
+        <img
+          alt=""
+          src="/photos/DSCF3189.jpg"
+        />
+      </div>
+      <div
+        style="display: flex; flex-direction: column; justify-content: flex-start; align-content: stretch; flex: 1; width: 0px; gap: 0;"
+      >
+        <img
+          alt=""
+          src="/photos/DSCF1140.jpg"
+        />
+        <img
+          alt=""
+          src="/photos/DSCF3526.jpg"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
