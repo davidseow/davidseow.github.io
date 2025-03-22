@@ -45,6 +45,11 @@ const imagesPath = [
   "/photos/IMG_6951.jpg",
   "/photos/IMG_7404.jpg",
   "/photos/IMG_8186.jpg",
+  "/photos/PXL_20240921_093844364.jpg",
+  "/photos/PXL_20240921_100231457.jpg",
+  "/photos/PXL_20240922_082144968.MP.jpg",
+  "/photos/PXL_20250226_115603505.MP.jpg",
+  "/photos/PXL_20250306_002515771.PORTRAIT.jpg",
 ];
 
 const shuffled = shuffle(imagesPath);
