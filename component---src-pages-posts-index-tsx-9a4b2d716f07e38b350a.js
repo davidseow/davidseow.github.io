@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdavid_seow=self.webpackChunkdavid_seow||[]).push([[561],{2148:function(t,s,e){e.r(s);var n=e(7294),a=e(1597),l=e(3638),u=e(5822),i=e(7946);s.default=function(t){var s=t.data.allMdx.nodes;return(0,i.tZ)(l.Z,s,(0,i.tZ)(u.Z,{title:"Posts",description:"Post listing"}),s.map((function(t){return(0,i.tZ)(n.Fragment,null,(0,i.tZ)("div",{key:t.slug,className:"posts"},(0,i.tZ)(a.rU,{to:t.slug},(0,i.tZ)("h2",null,t.frontmatter.title))))})))}}}]);
+//# sourceMappingURL=component---src-pages-posts-index-tsx-9a4b2d716f07e38b350a.js.map
