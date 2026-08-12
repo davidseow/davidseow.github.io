@@ -17,6 +17,7 @@ const PostsPage = ({ data }) => {
               <Link to={post.slug}>
                 <h2>{post.frontmatter.title}</h2>
               </Link>
+              <small>{post.frontmatter.date}</small>
             </div>
           </>
         );
@@ -27,10 +28,11 @@ const PostsPage = ({ data }) => {
 
 export const pageQuery = graphql`
   {
-    allMdx(sort: { fields: [frontmatter___title], order: ASC }) {
+    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
       nodes {
         frontmatter {
           title
+          date(formatString: "D MMMM YYYY")
         }
         slug
       }

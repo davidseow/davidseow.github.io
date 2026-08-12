@@ -1,0 +1,27 @@
+---
+title: Three side projects walk into a browser
+path: /side-projects
+date: 2026-08-12
+---
+
+I've been tinkering after hours. Three of them are now presentable enough to let out in public. They all run in the browser, and none of them will ask you to sign up for anything.
+
+**Probably the point**
+
+[llm-logprobs](https://davidseow.github.io/llm-logprobs/) — type a prompt, watch a language model write it back one token at a time, and peer at the probability distribution behind every choice. Raw logits, top-10 rankings, entropy readouts, and a temperature slider you can crank until the thing starts talking nonsense, which is rather the point.
+
+The clever bit: it runs a real model — SmolLM2-135M-Instruct via Transformers.js on WebGPU, tucked into a web worker — so you get the _whole_ next-token distribution, not the top-20 crumbs a hosted API deigns to hand over. In a hurry? There's a demo mode with fabricated numbers that starts instantly. [Source](https://github.com/davidseow/llm-logprobs).
+
+**Ask if unclear**
+
+[a-case-for-llm-clarification](https://davidseow.github.io/a-case-for-llm-clarification/) — eleven slides making one small argument: put "ask if unclear" in your important prompts. An LLM picks the most probable next chunk of text and commits, so an ambiguous prompt is never flagged as ambiguous. It's quietly resolved into one confident answer. As far as the maths is concerned, confidently wrong beats asking.
+
+Pitched at a mixed audience, so no prior knowledge required. Two live demos in the deck (probability tables on slide 4, an "ask if unclear" toggle on slide 8), speaker notes behind `?`, deep links by hash, light and dark themes. One self-contained HTML file — no build step, no dependencies, nothing pulled off a CDN. A rare treat these days. [Source](https://github.com/davidseow/a-case-for-llm-clarification).
+
+**Mind the gap**
+
+[Echo Runner](https://davidseow.github.io/echo-runner/?features=1&sfx=1) — a three-lane, tap-to-move arcade game with a lag problem, on purpose. Your echo repeats everything you do a beat later: 0.1s at level one, a full two seconds by level twenty. You score by landing the echo on the yellow targets while dodging the red hazards yourself, which means playing where you'll be rather than where you are. Hindsight, but in advance.
+
+Vanilla JavaScript on a canvas, procedural audio via the Web Audio API (not a single sound file), installable as a PWA, a Firebase leaderboard, and English or Simplified Chinese. No build step here either. [Source](https://github.com/davidseow/echo-runner).
+
+All three are open source — have a poke around.
