@@ -14,7 +14,7 @@ const PostsPage = ({ data }) => {
         return (
           <>
             <div key={post.slug} className="posts">
-              <Link to={`/${post.slug}`}>
+              <Link to={post.slug}>
                 <h2>{post.frontmatter.title}</h2>
               </Link>
               <small>{post.frontmatter.date}</small>
